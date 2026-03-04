@@ -49,7 +49,7 @@ for:
     
   build_script:
     - echo matvar1 build_script
-    - C:\Windows\System32\systeminfo.exe /?
+    # - C:\Windows\System32\systeminfo.exe /?
     - set WINDOWZ=C:\Windows
     - %WINDOWZ%\System32\systeminfo.exe /?
 
