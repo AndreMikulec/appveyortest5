@@ -53,7 +53,8 @@ for:
     - set WINDOWZ=C:\Windows
     # - %WINDOWZ%\System32\systeminfo.exe /?
     # - "%%WINDOWZ%%\System32\systeminfo.exe" /?
-    - "%%WINDOWZ%%\\System32\\systeminfo.exe" /?
+    # - "%%WINDOWZ%%\\System32\\systeminfo.exe" /?
+    - call "%WINDOWZ%\System32\systeminfo.exe" /?
 
 
 -
